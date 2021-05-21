@@ -1,0 +1,151 @@
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    border: 1px solid #5E79C2;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 5vw;
+    line-height: 3rem; 
+}
+
+h2{
+    font-weight: bold;
+    font-size: 3vw;
+    line-height: 4vw;
+}
+
+button {
+    background-color: #5e79c2;
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.5em;
+    font-size: 1rem;
+    transition: 0.3s;
+    font-weight: 600;
+    transform: scale(1);
+}
+
+button:hover {
+    background-color: #4d64a3;
+    transform: scale(1.025);
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.desc-kontrib{
+    background-color: #5E79C2;
+    width: 30vw;
+    z-index: 0;
+}
+
+.kotak-kanan{
+    position: relative;
+    z-index: 4;
+    float: right;
+    width: 6vw;
+    height: 6vw;
+    background: #5E79C2;
+}
+
+.nama{
+    position: relative;
+    z-index: 4;
+    top: 5vh;
+}
+
+.putih{
+    position: absolute;
+    color: white;
+    display: inline-block;
+    text-align: right;
+    width: 29.5vw;
+}
+
+.biru{
+    position: relative;
+    color: #5E79C2;
+    display: inline-block;
+    left: 30.5vw;
+}
+
+.deskripsi-profil{
+    position: absolute;
+    z-index: 2;
+    height: 60vh;
+    top: 23vh;
+    left: 5vw;
+}
+
+.foto-profil{
+    position: absolute;
+    z-index: 2;
+    width: 25vw;
+    top: 18vh;
+    left: 10vw;
+    border: solid 0.5em #5E79C2;
+}
+
+.content{
+    width: 70vw;
+    background-color: white;
+    position: relative;
+    padding: 20% 0;
+    z-index: 1;
+    left: 33vw;
+}
+
+.container h2{
+    text-align: center;
+    color: #96ADFB;
+}
+
+.medsos{
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+.medsos a {
+    color: black;
+    display: inline-block;
+    margin: 0.7em;
+}
+
+.txt{
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.container h5{
+    margin: 2rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+td{
+    padding: 0.3em 1em;
+}
+
+.tombol-back{
+    margin: 1em 0;
+    text-align: right;
+}
